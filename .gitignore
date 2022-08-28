@@ -108,3 +108,4 @@ node-modules
 
 #env
 .env
+.env.test
