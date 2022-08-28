@@ -105,3 +105,6 @@ dist
 
 #Node modules
 node-modules
+
+#env
+.env
