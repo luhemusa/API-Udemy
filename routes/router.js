@@ -3,7 +3,7 @@ const Controller = require('../controllers/Controller.js')
 // router
 const router = require('express').Router()
 
-//// API //////
+//// API ////////
 
 //1 - test
 router.get('/getAll', Controller.test ) 
