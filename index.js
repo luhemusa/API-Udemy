@@ -2,7 +2,8 @@ const express = require('express')
 const cors = require('cors')
 const dotenv = require('dotenv')
 const http = require("http")
-//comentario nuevo
+
+
 dotenv.config();
 
 const app = express()
@@ -26,3 +27,4 @@ app.use('/api', router)
 const servidor = http.createServer(app);
 
 servidor.listen(5000, () => console.log('Server running at port 5000.!'));
+
